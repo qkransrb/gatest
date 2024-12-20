@@ -15,16 +15,22 @@ const Home = () => {
 
     ReactGA.gtag("event", "purchase", {
       transaction_id: transactionId,
-      value: 1.7,
+      affiliation: "SOLO LEVELING",
+      value: "1.7",
       currency: "USD",
-      is_first_purchase: true,
+      tax: "0",
+      shipping: "0",
       items: [
         {
-          item_id: "E-GateKey",
-          item_name: "E - Gate Key",
-          affiliation: "Solo Leveling Unlimited",
-          price: 1.7,
-          quantity: 1,
+          id: "E-GATEKEY",
+          name: "E - Gate Key",
+          list_name: "GATEKEY",
+          brand: "SLU",
+          category: "GATE",
+          variant: "NONE",
+          list_position: "E",
+          quantity: "1",
+          price: "1.7",
         },
       ],
     });
