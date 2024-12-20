@@ -34,7 +34,7 @@ const Home = () => {
 
   return (
     <div>
-      <button type="button" onCanPlay={purchase}>
+      <button type="button" onClick={purchase}>
         Purchase
       </button>
     </div>
